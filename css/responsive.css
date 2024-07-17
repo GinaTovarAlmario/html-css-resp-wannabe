@@ -17,7 +17,7 @@
   @media only screen and (max-width: 576px) {
         .row {
             flex-wrap: wrap;
-            gap: 30px;
+            gap: 50px;
         }
         .col {
             font-size: 22px;
