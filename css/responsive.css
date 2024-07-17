@@ -1,0 +1,22 @@
+
+/*tablet first*/
+@media only screen and (max-width: 768px) {
+
+    .container {
+        width: 100%;
+    }
+
+    img {
+        max-width: 100%;
+    }
+  
+  }
+
+
+
+
+
+/*mobile*/
+  @media only screen and (max-width: 576px) {
+  
+  }
