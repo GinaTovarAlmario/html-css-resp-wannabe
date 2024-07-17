@@ -9,25 +9,33 @@
     img {
         max-width: 100%;
     }
-    .col-right ul {
+   .why-us  .col-right ul {
         font-size: 15px;
     }
   }
 /*mobile*/
   @media only screen and (max-width: 576px) {
-        .row {
-            flex-wrap: wrap;
-            gap: 50px;
-        }
-        .col {
-            flex-basis: 100%;
-        }
-    
-      
-        .why-us {
-            background-color: black;
-            margin-bottom: 0;
-            padding-top: 30px;
-        }
+    body, .why-us .col-right ul {
+        font-size: 20px;
+    }
+    .row {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .col {
+        flex-basis: 100%;
+    }
+    .lessons {
+        padding-bottom: 3rem;
+    }
+    .steps {
+        font-weight: bold;
+        margin: 0;
+    }    
+    .why-us {
+        background-color: black;
+        margin-bottom: 0;
+        padding-top: 40px;
+    }
   
   }
