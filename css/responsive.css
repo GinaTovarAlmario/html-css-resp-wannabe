@@ -13,12 +13,14 @@
         font-size: 15px;
     }
   }
-
-
-
-
-
 /*mobile*/
   @media only screen and (max-width: 576px) {
+        .row {
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .col {
+            flex-basis: 100%;
+        }
   
   }
