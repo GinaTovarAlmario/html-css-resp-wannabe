@@ -5,12 +5,14 @@
     .container {
         width: 100%;
     }
-
     img {
         max-width: 100%;
     }
    .why-us  .col-right ul {
         font-size: 15px;
+    }
+    .steps {
+        font-weight: bold;
     }
   }
 /*mobile*/
@@ -37,5 +39,8 @@
         margin-bottom: 0;
         padding-top: 40px;
     }
-  
   }
+  /*Bonus*/
+  @media only screen and (min-width:769px) and (max-width:1160px {
+
+  })
