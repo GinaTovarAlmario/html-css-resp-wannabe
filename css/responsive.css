@@ -20,6 +20,7 @@
             gap: 30px;
         }
         .col {
+            font-size: 22px;
             flex-basis: 100%;
         }
   
